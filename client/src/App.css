@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2vw;
+}
+
+
+/* GENERAL <-------------------------------------------- */
+
+.h3 {
+  font-size: 1.5vw;
+}
+
+:root {
+  --color: #10181e;  
+  --color2: #c78851;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_container_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex_container_space_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_title {
+  font-size: 1.8vw;
+  margin-top: 1vw;
+  border: 2px solid var(--color);
+  color: var(--color);
+  padding: 5px;
+  border-radius: "4px";
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+
+
+
+
+/* LOGIN <------------------------------------------------------- */
+
+.login_body {
+  height: 100vh; 
+  background: gray url("images/bg.png") no-repeat right top;
+  background-size: 100vw 100vh;
+}
+
+.logo_container {
+  margin-bottom: 1vw;
+  text-align: center;
+}
+
+.logo_login {
+  width: 12vw;
+  height: 12vw;
+  padding: 0.5vw;
+  border: 3px solid var(--color);
+  border-radius: 85px;
+}
+
+form {
+  width: 25vw;
+  margin-bottom: 0vw;
+  padding: 2vw;
+  border-radius: 2%;
+  flex-direction: column;
+  background-color: var(--color);
+}
+
+.form_container {
+  border: 3px solid var(--color);
+  padding: 0.6vw;
+}
+
+.label {
+  margin-bottom: 0vw;
+  color: var(--color2);
+}
+
+input {
+  margin-bottom: 4vw;
+  height: 2.5vw;
+  border: 2.5px solid var(--color2);
+  border-radius: 2%;
+}
+
+.input_login {
+  margin-bottom: 1vw;
+}
+
+.btns_container_login {
+  margin-top: 5vw;
+  padding: 1vw 0;
+  text-align: center;
+}
+
+.button {
+  padding: 0.3vw 2vw;
+  border: 1px solid var(--color);
+  border-radius: 6px;
+  background-color: var(--color);
+  color: var(--color2);
+  font-weight: bold;
+}
+
+button {
+  color: var(--color2);
+}
+
+.btn_login {
+  background-color: var(--color2);
+  border: var(--color2);
+  color: var(--color);
+  font-weight: bold;
+}
+
+.container_form {
+  padding: 4vw;
+  background: gray url("images/bg14.png") no-repeat right top;
+  background-size: 100% 100%;
+}
+
+
+
+
+
+/* COMPANY PANEL <---------------------------------------- */
+
+.company_panel_body {
+  background: gray url("images/bg23.png");
+}
+
+.header {
+  height: 6vw;
+  margin-bottom: 1vw;
+  border-bottom: 2px solid lightgray;
+  background-color: var(--color);
+} 
+
+.header button {
+  border: 1px solid var(--color2);
+  margin-right: 1vw;
+}
+
+header div {
+  margin: 0 1vw;
+  padding: 0vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 5.5vw;
+  height: 5.5vw;
+}
+
+.created_user_notification {
+  text-align: center;
+  padding-bottom: 3vw;
+}
+
+#company_name_div {
+  padding: 0.2vw 0;
+  color: var(--color2);
+  margin: 0;
+}
+
+#drop_btn_company {
+  background-color: var(--color);
+  color: var(--color2);
+  border: 1px solid var(--color);
+  padding: 0;
+}
+
+#dropdown_item_company {
+  background-color: var(--color);
+  color: var(--color2);
+}
+
+#dropdown_menu_company {
+  background-color: var(--color);
+  border: var(--color);
+  color: var(--color2);
+}
+
+.subheader {
+  padding: 0 2vw 1vw 2vw;
+}
+
+#modal_btn {
+  padding: 0.3vw 2vw;
+  border: 1px solid var(--color);
+  border-radius: 6px;
+  color: var(--color2);
+  background-color: var(--color);
+} 
+
+.modal_label {
+  margin: 0.3vw 0 0 0.5vw;
+}
+
+#create_user_btn {
+  padding: 0.3vw 2vw;
+  border: 1px solid var(--color);
+  border-radius: 6px;
+  color: black;
+  background-color: var(--color);
+}
+
+.table_container {
+  margin: 0 2vw;
+  color: red;
+}
+
+.evaluation_type_label {
+  margin-bottom: 1vw;
+}
+
+.modal_body {
+  width: 30vw;
+  padding: 0;
+}
+
+.modal_header {
+  background: var(--color);
+}
+
+.user_register_form {
+    border: 2px solid var(--color);
+    background-color: transparent;
+}
+
+.user_register_input {
+  border: 2px solid var(--color);
+}
+
+.user_register_label {
+  color: var(--color);
+  font-weight: bold;
+}
+
+.request_div {
+  text-align: center;
+}
+
+
+.h2_success {
+  margin: 2vw 0;
+  color: var(--color);
+}
+
+tr {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+/* NEW EVALUATION <---------------------------------- */
+
+h1, h2 {
+  text-align: center; 
+  color: #737777;
+  font-weight: bold;
+}
+
+.h1_new {
+  font-size: 2.2vw;
+  color: var(--color);
+  font-weight: bold;
+}
+
+#h2_new_evaluation {
+  font-size: 1.7vw;
+}
+
+span {
+  color: var(--color);
+  font-size: 2.2vw;
+}
+
+.form {
+  padding: 0.5vw 1.5vw;
+  width: 27vw;
+}
+
+.input {
+  height: 2.3vw;
+  margin-bottom: 0.2vw;
+}
+
+#select_doc {
+  width: 6vw;
+  height: 2.3vw;
+  margin-right: 0.5vw;
+  padding: 0;
+  border: 2px solid var(--color);
+}
+
+#input_doc {
+  width: 16.8vw;
+}
+
+.select_container {
+  padding: 0.2vw 0;
+  margin-bottom: 1vw;
+}
+
+select {
+  width: 23.3vw;
+  border: 3px solid lightgray;
+  padding: 0.3vw;
+  color: #5B5D5B;
+}
+
+
+
+
+
+
+/* ADMIN PANEL <--------------------------------- */
+
+.subheader button {
+  margin-right: 1vw;
+}
+
+.select {
+  width: 9vw;
+}
+
+.text_right {
+  text-align: right;
+}
+
+#evaluations_description_btn {
+  padding: 0 1vw;
+  margin: 0 1.5vw 0 0;
+  background-color: var(--color);
+  border-radius: 6px;
+}
