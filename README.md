@@ -1,4 +1,4 @@
-#ASANA
+#ASANA (mock company)
 
 (In process). Responsive APP to manage services from Asana Center. It is a care center that offers workshops and sessions about yoga, vegan nutrition, relaxation, meditation, professional massages and spa treatments. Companies hire this service for their employees as an effort of improving staff satisfaction. With this platform, 
 
